@@ -4,7 +4,8 @@
 name: UEFI firmware - EDK2 build
 
 on:
-  push:
+  workflow_dispatch:
+#  push:
     tags:
       - '*'
 
